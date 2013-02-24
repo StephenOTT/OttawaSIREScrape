@@ -8,35 +8,35 @@
   </project>
   <content UUID="23a45709-7cc2-4d16-a1e2-671af5c1fa07">
     <template UUID="55ce7cdb-9770-4038-945b-9090b9bf1159" number="1">
-      <navig xpath="//tr[@class='Results']" name="S2" type="block" dbtable="ResultsTable" UUID="c9152172-5b53-4da9-9c72-f4d33d6a85bb">
-        <navig xpath="td[1]" dbcolumn="ResultsTable.MeetingName" UUID="6503271a-5ecd-4a4a-b0f9-ad802498f0dc" type="value" procs="[]" name="D1"/>
-        <navig xpath="td[2]" dbcolumn="ResultsTable.Date" UUID="8c38bab4-c419-4db0-b9aa-3f918eaeff8b" type="value" procs="[]" name="D2"/>
-        <navig xpath="td[3]" dbcolumn="ResultsTable.Time" UUID="518ac3f3-1ab1-474b-8a02-af24180ff6c6" type="value" procs="[]" name="D3"/>
-        <navig xpath="td[4]" dbcolumn="ResultsTable.Contact" UUID="5588d386-cb8b-4faa-8ce6-14707aa86cb3" type="value" procs="[]" name="D4"/>
-        <navig dbcolumn="ResultsTable.PageURL" UUID="38e7df10-6efb-4f72-9ad8-ea240e7f2569" value="page_attribute" type="value" procs="[]" name="D6"/>
-        <navig xpath="td[5]/ul/li[1]/a[1]" dbcolumn="ResultsTable.AgendaHTML" UUID="ab633e98-ec19-4f10-8794-405cf1092a9d" dom_attribute="href" value="attribute" type="value" procs="[]" name="D7"/>
-        <navig xpath="td[5]/ul/li[1]/a[2]" dbcolumn="ResultsTable.AgendaPDF" UUID="5936553d-f0e4-45f8-a403-746ba9448502" dom_attribute="href" value="attribute" type="value" procs="[]" name="D8"/>
-        <navig xpath="td[5]/ul/li[2]/a[1]" dbcolumn="ResultsTable.ActionSummaryHTML" UUID="d1f854c7-4cce-4bdc-aef7-edc21014fd98" dom_attribute="href" value="attribute" type="value" procs="[]" name="D9"/>
-        <navig xpath="td[5]/ul/li[2]/a[2]" dbcolumn="ResultsTable.ActionSummaryPDF" UUID="681f5670-5d59-426f-9446-af1e50b190f5" dom_attribute="href" value="attribute" type="value" procs="[]" name="D10"/>
-        <navig xpath="td[5]/ul/li[3]/a[1]" dbcolumn="ResultsTable.MinutesHTML" UUID="3cd7b8a7-db2b-4875-89ad-dd6e072b3353" dom_attribute="href" value="attribute" type="value" procs="[]" name="D11"/>
-        <navig xpath="td[5]/ul/li[3]/a[2]" dbcolumn="ResultsTable.MinutesPDF" UUID="ba78f303-5d67-4ef9-8320-ba6efad9b156" dom_attribute="href" value="attribute" type="value" procs="[]" name="D13"/>
-        <navig xpath="td[5]/ul/li[4]/a[2]/img" dbcolumn="ResultsTable.VideoLink" UUID="75daec68-b426-4b30-a2b5-ce9f0eae6e3b" value="html" type="value" procs="[]" name="D14"/>
+      <navig xpath="//tr[@class='Results']" UUID="c9152172-5b53-4da9-9c72-f4d33d6a85bb" type="block" dbtable="SearchResultsTable" name="S2">
+        <navig xpath="td[1]" dbcolumn="SearchResultsTable.MeetingName" UUID="6503271a-5ecd-4a4a-b0f9-ad802498f0dc" type="value" procs="[]" name="D1"/>
+        <navig xpath="td[2]" dbcolumn="SearchResultsTable.Date" UUID="8c38bab4-c419-4db0-b9aa-3f918eaeff8b" type="value" procs="[]" name="D2"/>
+        <navig xpath="td[3]" dbcolumn="SearchResultsTable.Time" UUID="518ac3f3-1ab1-474b-8a02-af24180ff6c6" type="value" procs="[]" name="D3"/>
+        <navig xpath="td[4]" dbcolumn="SearchResultsTable.Contact" UUID="5588d386-cb8b-4faa-8ce6-14707aa86cb3" type="value" procs="[]" name="D4"/>
+        <navig dbcolumn="SearchResultsTable.PageURL" UUID="38e7df10-6efb-4f72-9ad8-ea240e7f2569" value="page_attribute" type="value" procs="[]" name="D6"/>
+        <navig xpath="td[5]/ul/li[1]/a[1]" dbcolumn="SearchResultsTable.AgendaHTML" UUID="ab633e98-ec19-4f10-8794-405cf1092a9d" dom_attribute="href" value="attribute" type="value" procs="[]" name="D7"/>
+        <navig xpath="td[5]/ul/li[1]/a[2]" dbcolumn="SearchResultsTable.AgendaPDF" UUID="5936553d-f0e4-45f8-a403-746ba9448502" dom_attribute="href" value="attribute" type="value" procs="[]" name="D8"/>
+        <navig xpath="td[5]/ul/li[2]/a[1]" dbcolumn="SearchResultsTable.ActionSummaryHTML" UUID="d1f854c7-4cce-4bdc-aef7-edc21014fd98" dom_attribute="href" value="attribute" type="value" procs="[]" name="D9"/>
+        <navig xpath="td[5]/ul/li[2]/a[2]" dbcolumn="SearchResultsTable.ActionSummaryPDF" UUID="681f5670-5d59-426f-9446-af1e50b190f5" dom_attribute="href" value="attribute" type="value" procs="[]" name="D10"/>
+        <navig xpath="td[5]/ul/li[3]/a[1]" dbcolumn="SearchResultsTable.MinutesHTML" UUID="3cd7b8a7-db2b-4875-89ad-dd6e072b3353" dom_attribute="href" value="attribute" type="value" procs="[]" name="D11"/>
+        <navig xpath="td[5]/ul/li[3]/a[2]" dbcolumn="SearchResultsTable.MinutesPDF" UUID="ba78f303-5d67-4ef9-8320-ba6efad9b156" dom_attribute="href" value="attribute" type="value" procs="[]" name="D13"/>
+        <navig xpath="td[5]/ul/li[4]/a[2]/img" dbcolumn="SearchResultsTable.VideoLink" UUID="75daec68-b426-4b30-a2b5-ce9f0eae6e3b" value="html" type="value" procs="[]" name="D14"/>
       </navig>
     </template>
     <template UUID="d89131eb-a34b-4247-a9f4-8b62d97a043a" number="2">
-      <navig dbtable="Level2" type="block" UUID="d1712cb1-47a1-4092-b466-73c7e4ea404e" name="S1">
-        <navig xpath="/html/body/form/table/tbody/tr[2]/td[1]/table/tbody/tr/td/iframe" dbcolumn="Level2.AgendaHTMLiFrameURL" UUID="a0f556f4-274a-4b87-b1a6-c72f747ae2d0" dom_attribute="src" value="attribute" type="value" procs="[]" name="D1"/>
-        <navig dbcolumn="Level2.PageURL" UUID="3a9d3202-997f-4146-8375-85856c2d23c1" value="page_attribute" type="value" procs="[]" name="D2"/>
+      <navig name="S1" type="block" UUID="d1712cb1-47a1-4092-b466-73c7e4ea404e" dbtable="SearchResultsAgendaHTMLURLs">
+        <navig xpath="/html/body/form/table/tbody/tr[2]/td[1]/table/tbody/tr/td/iframe" dbcolumn="SearchResultsAgendaHTMLURLs.AgendaHTMLiFrameURL" UUID="a0f556f4-274a-4b87-b1a6-c72f747ae2d0" dom_attribute="src" value="attribute" type="value" procs="[]" name="D1"/>
+        <navig dbcolumn="SearchResultsAgendaHTMLURLs.PageURL" UUID="3a9d3202-997f-4146-8375-85856c2d23c1" value="page_attribute" type="value" procs="[]" name="D2"/>
       </navig>
     </template>
   </content>
   <database engine="sqlite" UUID="e72e21d6-dd31-44a9-add7-9c404f217b3d" file_path="SIRE.db3">
-    <table saving="[]" UUID="3e6903a0-8fa4-4360-890a-ace2b978b58e" name="Level2">
+    <table saving="[]" UUID="3e6903a0-8fa4-4360-890a-ace2b978b58e" name="SearchResultsAgendaHTMLURLs">
       <field data_type="Integer" field_name="id" UUID="1de127e5-d314-4841-8f83-373e59003102" column_options="primary_key|"/>
       <field data_type="Text" field_name="AgendaHTMLiFrameURL" UUID="77d13bd5-1231-4510-903e-350b82df77eb"/>
       <field data_type="Text" field_name="PageURL" UUID="4b23ddd2-68e8-4d39-8654-1cecb24eac26"/>
     </table>
-    <table saving="[]" UUID="4649b875-b596-4e08-ac11-167e96581d4d" name="ResultsTable">
+    <table saving="[]" UUID="4649b875-b596-4e08-ac11-167e96581d4d" name="SearchResultsTable">
       <field data_type="Integer" field_name="id" UUID="c133ac2f-dc91-4ec8-a928-1f4de1376816" column_options="primary_key|"/>
       <field data_type="Text" field_name="MeetingName" UUID="fb2c3acd-d237-4043-aaed-1e118e194eff"/>
       <field data_type="Text" field_name="Date" UUID="746debea-fb20-4d0c-a905-432d467cd807"/>
