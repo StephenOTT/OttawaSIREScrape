@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the SIRE Scrape feature.
+ */
+
+include_once 'sire_scrape.features.inc';
