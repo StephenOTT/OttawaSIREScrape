@@ -1,8 +1,7 @@
-BEGIN TRANSACTION;
-CREATE TABLE "SearchResultsAgendaHTMLURLs" (
+CREATE TABLE SearchResultsAgendaHTMLURLs (
 	id INTEGER NOT NULL, 
-	"AgendaHTMLiFrameURL" TEXT, 
-	"PageURL" TEXT, 
+	AgendaHTMLiFrameURL TEXT, 
+	PageURL TEXT, 
 	PRIMARY KEY (id)
 );
 INSERT INTO SearchResultsAgendaHTMLURLs VALUES(1,'agview.aspx?agviewmeetid=1927&agviewdoctype=AGENDA','http://app05.ottawa.ca/sirepub/mtgviewer.aspx?meetid=1927&doctype=AGENDA');
@@ -91,20 +90,20 @@ INSERT INTO SearchResultsAgendaHTMLURLs VALUES(83,'agview.aspx?agviewmeetid=2479
 INSERT INTO SearchResultsAgendaHTMLURLs VALUES(84,'agview.aspx?agviewmeetid=2398&agviewdoctype=AGENDA','http://app05.ottawa.ca/sirepub/mtgviewer.aspx?meetid=2398&doctype=AGENDA');
 INSERT INTO SearchResultsAgendaHTMLURLs VALUES(85,'agview.aspx?agviewmeetid=2272&agviewdoctype=AGENDA','http://app05.ottawa.ca/sirepub/mtgviewer.aspx?meetid=2272&doctype=AGENDA');
 INSERT INTO SearchResultsAgendaHTMLURLs VALUES(86,'agview.aspx?agviewmeetid=2333&agviewdoctype=AGENDA','http://app05.ottawa.ca/sirepub/mtgviewer.aspx?meetid=2333&doctype=AGENDA');
-CREATE TABLE "SearchResultsTable" (
+CREATE TABLE SearchResultsTable (
 	id INTEGER NOT NULL, 
-	"MeetingName" TEXT, 
-	"Date" TEXT, 
-	"Time" TEXT, 
-	"Contact" TEXT, 
-	"PageURL" TEXT, 
-	"AgendaHTML" TEXT, 
-	"AgendaPDF" TEXT, 
-	"ActionSummaryHTML" TEXT, 
-	"ActionSummaryPDF" TEXT, 
-	"MinutesHTML" TEXT, 
-	"MinutesPDF" TEXT, 
-	"VideoLink" TEXT, 
+	MeetingName TEXT, 
+	Date TEXT, 
+	Time TEXT, 
+	Contact TEXT, 
+	PageURL TEXT, 
+	AgendaHTML TEXT, 
+	AgendaPDF TEXT, 
+	ActionSummaryHTML TEXT, 
+	ActionSummaryPDF TEXT, 
+	MinutesHTML TEXT, 
+	MinutesPDF TEXT, 
+	VideoLink TEXT, 
 	PRIMARY KEY (id)
 );
 INSERT INTO SearchResultsTable VALUES(1,'Information Technology Sub-Committee','2012-Jun-18','9:30 AM','Melody Duffenais613-580-2424 x20113
